@@ -7,8 +7,7 @@
       "shelf#home2",
       "flex-layout.row#imagesfoot"
     ]
-  },  
-
+  },
   "carousel#home": {
     "props": {
       "autoplay": false,
@@ -28,26 +27,22 @@
       "blockClass": "mainCarousel"
     }
   },
-
-  "flex-layout.row#forms":{
-    "children":[
+  "flex-layout.row#forms": {
+    "children": [
       "newsletter"
     ],
-    "props":{
+    "props": {
       "horizontalAlign": "right",
       "blockClass": "formbox"
-      
     }
   },
-  
-  "newsletter":{
-    "props":{
-      "label": "FASHION NEWSLETTER",
+  "newsletter": {
+    "props": {
+      "label": "NEWSLETTER",
       "submit": "Enviar",
       "placeholder": "Insira seu e-mail"
     }
   },
-
   "shelf#home1": {
     "blocks": [
       "product-summary.shelf"
@@ -64,7 +59,6 @@
       }
     }
   },
-
   "shelf#home2": {
     "blocks": [
       "product-summary.shelf"
@@ -81,7 +75,6 @@
       }
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -95,7 +88,6 @@
       "textAlignment": "center"
     }
   },
-
   "product-summary.shelf": {
     "children": [
       "product-summary-image",
@@ -103,57 +95,54 @@
       "product-summary-price"
     ]
   },
-  "product-summary-name":{
-    "props":{
+  "product-summary-name": {
+    "props": {
       "blockClass": "shelfprodname"
     }
   },
-  "product-summary-price":{
-    "props":{
+  "product-summary-price": {
+    "props": {
       "showLabels": false
     }
   },
-  "product-summary-image":{
-    "props":{
+  "product-summary-image": {
+    "props": {
       "hoverImageLabel": "hover"
     }
   },
-
-  
-  "flex-layout.row#imagesfoot":{
-    "children":[
+  "flex-layout.row#imagesfoot": {
+    "children": [
       "flex-layout.col#imagesfoot1",
       "flex-layout.col#imagesfoot2",
       "flex-layout.col#imagesfoot3"
     ]
   },
-  
-  "flex-layout.col#imagesfoot1":{
-    "children":[
+  "flex-layout.col#imagesfoot1": {
+    "children": [
       "info-card#footimage1"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "flex-layout.col#imagesfoot2":{
-    "children":[
+  "flex-layout.col#imagesfoot2": {
+    "children": [
       "info-card#footimage2"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "flex-layout.col#imagesfoot3":{
-    "children":[
+  "flex-layout.col#imagesfoot3": {
+    "children": [
       "info-card#footimage3"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "info-card#footimage1":{
-    "props":{
+  "info-card#footimage1": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://www.analoren.com.br/assets/templates/2/imagens/Half_346x300_Analoren_Conheca2.jpg",
       "textPosition": "center",
@@ -161,26 +150,21 @@
       "callToActionUrl": "https://analoren.myvtex.com/about-us"
     }
   },
-  "info-card#footimage2":{
-    "props":{
+  "info-card#footimage2": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://www.analoren.com.br/assets/templates/2/imagens/Half_346x300_Analoren_Insta2.jpg",
       "textPosition": "center",
       "blockClass": "footimagecard",
       "callToActionUrl": "https://www.instagram.com/analoren/"
-
     }
   },
-  "info-card#footimage3":{
-    "props":{
+  "info-card#footimage3": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://www.analoren.com.br/assets/templates/2/imagens/Half_346x300_Analoren_Embalagem2.jpg",
       "textPosition": "center",
       "blockClass": "footimagecard"
     }
   }
-  
 }
-
-
-
