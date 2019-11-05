@@ -327,7 +327,8 @@
   "vtex.menu@2.x:menu#priormobile": {
     "children": [],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "menuMobile"
     }
   },
   "logo#mobile": {
