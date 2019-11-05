@@ -23,9 +23,6 @@
 }
 
 @media only screen and (max-width: 640px) {
-    .badge::after{
-        display: none;
-    }
     .badge{
         font-size: 14px;
         background-color: #000;
@@ -36,9 +33,5 @@
     .container{
         background-image: none;
         width: 100px;
-    }
-    .container svg{
-        display: flex;
-        color: #000;
     }
 }
