@@ -22,7 +22,6 @@
   "header-row#contact-desktop": {
     "children": [
       "header-spacer",
-      "login",
       "vtex.menu@2.x:menu#contactmenu"
       // "rich-text#attendance",
       // "rich-text#talk",
@@ -142,12 +141,13 @@
     "children": [
       "logo",
       "rich-text#face",
-      "rich-text#twitter",
-      "rich-text#insta",
-      "rich-text#pinterest",
+      //"rich-text#twitter",
+      //"rich-text#insta",
+      //"rich-text#pinterest",
       "header-spacer",
       "search-bar",
       "header-spacer",
+      "login",
       "minicart"
     ],
     "props": {
