@@ -1,11 +1,8 @@
-.menuItem--offerstop{
-    background: #EA2027;
-  }
 .menuItem--highligthstop{
-    background: #c49b5d;
+    background: #f42712;
   }
 .menuItem:hover{
-  background: #c49b5d;
+  background: #f42712;
   color: #fff;
 
 }
