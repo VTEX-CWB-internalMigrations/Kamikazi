@@ -46,12 +46,26 @@
   },
   "menu-item#phone": {
     "props": {
-      "text": "ATENDIMENTO (34) 3246-3332"
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Número de Atendimento",
+        "text": "ATENDIMENTO (11) 3619-3085"
+      },
+      "blockClass": "contact"
     }
   },
   "menu-item#talk": {
     "props": {
-      "text": "Fale Conosco"
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "talk"
     }
   },
   "menu-item#logintop": {
@@ -61,12 +75,26 @@
   },
   "menu-item#requests": {
     "props": {
-      "text": "MEUS PEDIDOS"
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Meus Pedidos",
+        "text": "MEUS PEDIDOS"
+      },
+      "blockClass": "order"
     }
   },
   "menu-item#register": {
     "props": {
-      "text": "MEU CADASTRO"
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Meu Cadastro",
+        "text": "MEU CADASTRO"
+      },
+      "blockClass": "login"
     }
   },
   // "rich-text#attendance":{
@@ -169,10 +197,13 @@
   "vtex.menu@2.x:menu#prior": {
     "children": [
       "menu-item#all",
-      "menu-item#spotlights",
-      "menu-item#clothes",
-      "menu-item#beach",
-      "menu-item#iesa"
+      "menu-item#openField",
+      "menu-item#acessories",
+      "menu-item#airsoft",
+      "menu-item#balls",
+      "menu-item#pipe",
+      "menu-item#loader",
+      "menu-item#belt"
     ]
   },
   "menu-item#all": {
@@ -189,213 +220,89 @@
       }
     }
   },
-  "menu-item#spotlights": {
+  "menu-item#openField": {
+    "blocks": [
+      //"vtex.menu@2.x:submenu#openSub"
+    ],
     "props": {
       "itemProps": {
         "type": "internal",
         "href": "",
         "noFollow": true,
-        "tagTitle": "Novidades",
-        "text": "NOVIDADES"
+        "tagTitle": "Abra seu Campo",
+        "text": "Abra seu Campo"
       },
       "blockClass": "highligthstop"
     }
   },
-  // ----- ESCOLHAS DA IESA ------ //
-  "menu-item#iesa": {
+  "rich-text#open": {
+    "props": {
+      "text": "Abra seu Campo"
+    }
+  },
+  "menu-item#acessories": {
     "props": {
       "itemProps": {
         "type": "internal",
         "href": "",
         "noFollow": true,
-        "tagTitle": "Iesa",
-        "text": "ESCOLHAS DA IESA"
+        "tagTitle": "Acessórios",
+        "text": "Acessórios e Customização"
       }
     }
   },
-  // ----- ROUPAS ------- //
-  "menu-item#clothes": {
-    "blocks": [
-      "vtex.menu@2.x:submenu#clothessub"
-    ],
+  "menu-item#airsoft": {
     "props": {
       "itemProps": {
         "type": "internal",
         "href": "",
         "noFollow": true,
-        "tagTitle": "Roupas",
-        "text": "ROUPAS"
+        "tagTitle": "Airsoft",
+        "text": "Airsoft"
       }
     }
   },
-  "vtex.menu@2.x:submenu#clothessub": {
-    "children": [
-      "vtex.menu@2.x:menu#clothessubmenu"
-    ]
-  },
-  "vtex.menu@2.x:menu#clothessubmenu": {
-    "children": [
-      "menu-item#blousesMain",
-      "menu-item#bodysMain",
-      "menu-item#pantsMain",
-      "menu-item#jacketsMain",
-      "menu-item#overallsMain",
-      "menu-item#skirtsMain",
-      "menu-item#shortssMain",
-      "menu-item#dressessMain"
-    ],
-    "props": {
-      "blockClass": "subdirection"
-    }
-  },
-  "menu-item#blousesMain": {
+  "menu-item#balls": {
     "props": {
       "itemProps": {
         "type": "internal",
         "href": "",
         "noFollow": true,
-        "tagTitle": "Blusas",
-        "text": "Blusas"
+        "tagTitle": "Bolas p/ Paintball",
+        "text": "Bolas p/ Paintball"
       }
     }
   },
-  "menu-item#bodysMain": {
+  "menu-item#pipe": {
     "props": {
       "itemProps": {
         "type": "internal",
         "href": "",
         "noFollow": true,
-        "tagTitle": "Bodys",
-        "text": "Bodys"
+        "tagTitle": "Canos",
+        "text": "Canos"
       }
     }
   },
-  "menu-item#pantsMain": {
+  "menu-item#loader": {
     "props": {
       "itemProps": {
         "type": "internal",
         "href": "",
         "noFollow": true,
-        "tagTitle": "Calcas",
-        "text": "Calças"
+        "tagTitle": "Carregadores",
+        "text": "Carregadores"
       }
     }
   },
-  "menu-item#jacketsMain": {
+  "menu-item#belt": {
     "props": {
       "itemProps": {
         "type": "internal",
         "href": "",
         "noFollow": true,
-        "tagTitle": "Casacos e Jaquetas",
-        "text": "Casacos e Jaquetas"
-      }
-    }
-  },
-  "menu-item#overallsMain": {
-    "props": {
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Macacão",
-        "text": "Macacão"
-      }
-    }
-  },
-  "menu-item#skirtsMain": {
-    "props": {
-      "itemProps": {
-        "type": "internal",
-        "href": "/roupas/saias/d",
-        "noFollow": true,
-        "tagTitle": "Saias(Todos os departamentos)",
-        "text": "Saias"
-      }
-    }
-  },
-  "menu-item#shortssMain": {
-    "props": {
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
-      }
-    }
-  },
-  "menu-item#dressessMain": {
-    "props": {
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Vestidos",
-        "text": "Vestidos"
-      }
-    }
-  },
-  // ------ MODA PRAIA ------ //
-  "menu-item#beach": {
-    "blocks": [
-      "vtex.menu@2.x:submenu#beachsub"
-    ],
-    "props": {
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Moda Praia",
-        "text": "MODA PRAIA"
-      }
-    }
-  },
-  "vtex.menu@2.x:submenu#beachsub": {
-    "children": [
-      "vtex.menu@2.x:menu#beachsubmenu"
-    ]
-  },
-  "vtex.menu@2.x:menu#beachsubmenu": {
-    "children": [
-      "menu-item#pareo",
-      "menu-item#exitdress",
-      "menu-item#body"
-    ],
-    "props": {
-      "blockClass": "subdirection"
-    }
-  },
-  "menu-item#pareo": {
-    "props": {
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Pareo",
-        "text": "Parêos"
-      }
-    }
-  },
-  "menu-item#exitdress": {
-    "props": {
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Saídas",
-        "text": "Saídas"
-      }
-    }
-  },
-  "menu-item#body": {
-    "props": {
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "body",
-        "text": "Body"
+        "tagTitle": "Cintos",
+        "text": "Cintos"
       }
     }
   },
