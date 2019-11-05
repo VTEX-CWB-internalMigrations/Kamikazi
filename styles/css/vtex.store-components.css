@@ -209,6 +209,11 @@ h1.productNameContainer .productBrand{
   height: 100%;
 }
 
+.imageElement--encryptImg{
+  height: 70px;
+  width: 95px;
+}
+
 
 @media only screen and (min-width: 640px) {
   .newsletter .container {

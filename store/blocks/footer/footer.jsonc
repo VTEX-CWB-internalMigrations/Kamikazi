@@ -17,8 +17,8 @@
       "flex-layout.row#topfoot"
     ]
   },
-  "flex-layout.row#topfoot":{
-    "children":[
+  "flex-layout.row#topfoot": {
+    "children": [
       "flex-layout.col#analoren",
       "footer-spacer",
       "flex-layout.col#payment",
@@ -29,43 +29,40 @@
       "blockClass": "topfootrow"
     }
   },
-  "flex-layout.col#analoren":{
-    "children":[
+  "flex-layout.col#analoren": {
+    "children": [
       "rich-text#analorentitle",
       "rich-text#about",
       "rich-text#privacy"
       // "rich-text#talk"
     ]
   },
-  "rich-text#analorentitle":{
-    "props":{
+  "rich-text#analorentitle": {
+    "props": {
       "text": "A ANALOREN",
       "blockClass": "footertitle"
     }
   },
-  "rich-text#about":{
-    "props":{
+  "rich-text#about": {
+    "props": {
       "text": "[Sobre a Analoren](#)",
       "blockClass": "footlinkitem"
     }
   },
-  "rich-text#privacy":{
-    "props":{
+  "rich-text#privacy": {
+    "props": {
       "text": "[Privacidade](#)",
       "blockClass": "footlinkitem"
-
     }
   },
   // "rich-text#talk":{
   //   "props":{
   //     "text":"[Fale Conosco](#)",
   //     "blockClass": "footlinkitem"
-
   //   }
   // },
-
-  "flex-layout.col#payment":{
-    "children":[
+  "flex-layout.col#payment": {
+    "children": [
       "rich-text#paymenttitle",
       "accepted-payment-methods"
     ],
@@ -76,30 +73,30 @@
   "accepted-payment-methods": {
     "props": {
       "paymentMethods": [
-        "MasterCard", "Visa", "Diners Club"
+        "MasterCard",
+        "Visa",
+        "Diners Club"
       ]
     }
   },
-  "rich-text#paymenttitle":{
-    "props":{
+  "rich-text#paymenttitle": {
+    "props": {
       "text": "PAGAMENTO",
       "blockClass": "footertitle"
     }
   },
-
-  "flex-layout.col#social":{
-    "children":[
+  "flex-layout.col#social": {
+    "children": [
       "rich-text#socialtitle",
       "social-networks"
     ]
   },
-  "rich-text#socialtitle":{
-    "props":{
+  "rich-text#socialtitle": {
+    "props": {
       "text": "ACOMPANHE",
       "blockClass": "footertitle"
     }
   },
-
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -122,14 +119,13 @@
       ]
     }
   },
-
   "footer-row#2-desktop": {
-    "children":[
+    "children": [
       "flex-layout.row#middlefoot"
     ]
   },
-  "flex-layout.row#middlefoot":{
-    "children":[
+  "flex-layout.row#middlefoot": {
+    "children": [
       "flex-layout.col#help",
       "footer-spacer",
       "flex-layout.col#safety",
@@ -140,8 +136,8 @@
       "blockClass": "middlefootrow"
     }
   },
-  "flex-layout.col#help":{
-    "children":[
+  "flex-layout.col#help": {
+    "children": [
       "rich-text#helptitle",
       "rich-text#helppayment#",
       "rich-text#change",
@@ -149,27 +145,26 @@
       // "rich-text#doubts"
     ]
   },
-
-  "rich-text#helptitle":{
-    "props":{
+  "rich-text#helptitle": {
+    "props": {
       "text": "AJUDA E SUPORTE",
       "blockClass": "footertitle"
     }
   },
-  "rich-text#helppayment#":{
-    "props":{
+  "rich-text#helppayment#": {
+    "props": {
       "text": "[Pagamento](#)",
       "blockClass": "footlinkitem"
     }
   },
-  "rich-text#change":{
-    "props":{
+  "rich-text#change": {
+    "props": {
       "text": "[Trocas e Devoluções](#)",
       "blockClass": "footlinkitem"
     }
   },
-  "rich-text#shipping":{
-    "props":{
+  "rich-text#shipping": {
+    "props": {
       "text": "[Frete e Entrega](#)",
       "blockClass": "footlinkitem"
     }
@@ -180,32 +175,47 @@
   //     "blockClass": "footlinkitem"
   //   }
   // },
-  "flex-layout.col#safety":{
-    "children":[
+  "flex-layout.col#safety": {
+    "children": [
       "rich-text#safetytitle",
-      "image#encrypt"
+      "flex-layout.row#bottomImages"
     ]
   },
-  "rich-text#safetytitle":{
-    "props":{
+  "flex-layout.row#bottomImages": {
+    "children": [
+      "image#encrypt",
+      "rich-text#ebit"
+    ],
+    "props": {
+      "blockClass": "imageBottom"
+    }
+  },
+  "rich-text#safetytitle": {
+    "props": {
       "text": "SEGURANÇA",
       "blockClass": "footertitle"
     }
   },
-  "image#encrypt":{
-    "props":{
-      "src": "https://analoren.vteximg.com.br/arquivos/ids/155401/encrypt.png"
+  "image#encrypt": {
+    "props": {
+      "src": "https://analoren.vteximg.com.br/arquivos/ids/155401/encrypt.png",
+      "blockClass": "encryptImg"
     }
   },
-  "flex-layout.col#facesand":{
-    "children":[
+  "rich-text#ebit": {
+    "props": {
+      "text": "[![Imagem do Selo Ebit](https://lojakamikasi.vteximg.com.br/arquivos/ebit2.png 'selo ebit')](https://www.ebit.com.br/kamikasi)"
+    }
+  },
+  "flex-layout.col#facesand": {
+    "children": [
       "rich-text#likebox"
     ]
   },
-  "rich-text#likebox":{
-    "props":{
+  "rich-text#likebox": {
+    "props": {
       "text": "",
-      "blockClass":"likebox"
+      "blockClass": "likebox"
     }
   },
   "footer-row#3-desktop": {
@@ -222,14 +232,12 @@
       "blockClass": "footerlasttext"
     }
   },
-
   "footer-layout.mobile": {
     "children": [
       "footer-row#1-mobile",
       "footer-row#2-mobile"
     ]
   },
-
   "footer-row#1-mobile": {
     "children": [
       "accepted-payment-methods",
