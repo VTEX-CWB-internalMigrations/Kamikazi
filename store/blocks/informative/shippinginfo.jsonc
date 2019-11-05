@@ -1,0 +1,55 @@
+{
+    "store.custom#shipping-info": {
+      "blocks": [
+        "flex-layout.row#shippingrow"
+      ]
+    },
+    "flex-layout.row#shippingrow":{
+        "children":[ 
+            "flex-layout.col#shippingcolumn"
+        ]
+    },
+    "flex-layout.col#shippingcolumn":{
+        "children":[
+            "rich-text#shippingmaintitle",
+            "rich-text#shippingtitle",
+            "rich-text#shippingtext",
+            "rich-text#shippingtitle2",
+            "rich-text#shippingtext2"
+        ]
+    },
+    "rich-text#shippingmaintitle":{
+        "props":{
+            "text": "FRETE E ENTREGA",
+            "blockClass": "footertitle"
+        }
+    },
+
+    "rich-text#shippingtitle":{
+        "props":{
+            "text": "#### PRAZO DE ENTREGA",
+            "blockClass": "intitutional"
+        }
+    },
+    "rich-text#shippingtext":{
+        "props":{
+          "text": "O prazo de entrega pode variar de acordo com a localidade do destinatário. Ele começa a ser contado a partir da confirmação do pagamento pela administradora do cartão de crédito ou instituição financeira, podendo levar até 24 horas para confirmação ou em até dois dias úteis, se for efetuado via boleto bancário. Compras efetuadas aos sábados, domingo ou feriados serão postadas no próximo dia útil. As entregas são feitas pelo Correios. ",
+          "blockClass": "intitutional"
+        }
+    },
+    "rich-text#shippingtitle2":{
+        "props":{
+            "text": "#### VALOR DE FRETE",
+            "blockClass": "intitutional"
+        }
+    },
+    "rich-text#shippingtext2":{
+        "props":{
+          "text": "Para compras acima de R$ 400,00, enviamos gratuitamente através do PAC. Caso o cliente deseje trocar pelo SEDEX, não responsabilizamos pelos encargos.",
+          "blockClass": "intitutional"
+        }
+    }
+
+  
+  
+  }

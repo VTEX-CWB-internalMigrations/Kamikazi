@@ -1,0 +1,50 @@
+.container{
+    background-image: url(https://www.analoren.com.br/imagens/btn_carrinho2.png);
+    width: 165px;
+    background-repeat: no-repeat;
+}
+
+.container svg{
+    display: none;
+}
+.badge{
+    font-size: 14px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    left: 30px;
+    top: 2px;
+}
+.badge::after{
+    content: "Iten(s)"
+}
+.container button{
+    width: 100px;
+    background: transparent !important;
+}
+.container button:hover{
+    font-size: 0;
+    width: 100px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 640px) {
+    .badge::after{
+        display: none;
+    }
+    .badge{
+        font-size: 14px;
+        background-color: #000;
+        color: #fff;
+        left: 16px;
+        top: -10px;
+    }
+    .container{
+        background-image: none;
+        width: 100px;
+    }
+    .container svg{
+        display: flex;
+        color: #000;
+    }
+}

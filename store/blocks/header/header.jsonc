@@ -1,0 +1,651 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#contact-desktop",
+      "header-row#logo-desktop",
+      "header-row#menu-desktop"
+    ]
+  },
+  //CONTACT
+  "header-row#contact-desktop": {
+    "children": [
+      "header-spacer",
+      "login",
+      "vtex.menu@2.x:menu#contactmenu"
+      // "rich-text#attendance",
+      // "rich-text#talk",
+      // "rich-text#login",
+      // "rich-text#pedidos",
+      // "rich-text#cadastro"
+    ]
+  },
+  "vtex.menu@2.x:menu#contactmenu": {
+    "children": [
+      "menu-item#phone",
+      //"menu-item#talk",
+      //"menu-item#logintop",
+      "menu-item#requests",
+      "menu-item#register"
+    ],
+    "props": {
+      "blockClass": "menu-contact",
+      "inverted": "true"
+    }
+  },
+  "menu-item#phone": {
+    "props": {
+      "text": "ATENDIMENTO (34) 3246-3332"
+    }
+  },
+  "menu-item#talk": {
+    "props": {
+      "text": "Fale Conosco"
+    }
+  },
+  "menu-item#logintop": {
+    "props": {
+      "text": "Login"
+    }
+  },
+  "menu-item#requests": {
+    "props": {
+      "text": "MEUS PEDIDOS"
+    }
+  },
+  "menu-item#register": {
+    "props": {
+      "text": "MEU CADASTRO"
+    }
+  },
+  // "rich-text#attendance":{
+  //   "props":{
+  //     "text": "ATENDIMENTO (34) 3246-3332",
+  //     "textColor": "c-on-base",
+  //     "font": "t-heading-1",
+  //     "blockClass": "pad-contact"
+  //   }
+  // },
+  // "rich-text#talk":{
+  //   "props": {
+  //     "text": "[Fale Conosco](https://help.vtex.com/en/faq/what-is-vtex-io)",
+  //     "font": "t-heading-1",
+  //     "textColor": "c-on-base",
+  //     "blockClass": "pad-contact"
+  //   }
+  // },
+  // "rich-text#login":{
+  //   "props":{
+  //     "text": "[Entre ou Cadastre-se](https://help.vtex.com/en/faq/what-is-vtex-io)",
+  //     "font": "t-heading-1",
+  //     "textColor": "c-on-base",
+  //     "blockClass": "pad-contact"
+  //   }
+  // },
+  // "rich-text#pedidos":{
+  //   "props":{
+  //     "text": "[Meus Pedidos](https://help.vtex.com/en/faq/what-is-vtex-io)",
+  //     "font": "t-heading-1",
+  //     "textColor": "c-on-base",
+  //     "blockClass": "pad-contact"
+  //   }
+  // },
+  // "rich-text#cadastro":{
+  //   "props":{
+  //     "text": "[Meu Cadastro](https://help.vtex.com/en/faq/what-is-vtex-io)",
+  //     "font": "t-heading-1",
+  //     "textColor": "c-on-base",
+  //     "blockClass": "pad-contact"
+  //   }
+  // },
+  //LOGO
+  "header-row#logo-desktop": {
+    "children": [
+      "logo",
+      "rich-text#face",
+      "rich-text#twitter",
+      "rich-text#insta",
+      "rich-text#pinterest",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "iconClasses": "searchicon"
+    }
+  },
+  "rich-text#face": {
+    "props": {
+      "text": "[![Facebook](https://analoren.vteximg.com.br/arquivos/ids/155402/facebook.png)](https://www.facebook.com/siteanaloren?target=_blank)",
+      "blockClass": "socialheader"
+    }
+  },
+  "rich-text#twitter": {
+    "props": {
+      "text": "[![Twitter](https://analoren.vteximg.com.br/arquivos/ids/155405/twitter.png)](https://twitter.com/Analoren_com?target=_blank)",
+      "blockClass": "socialheader"
+    }
+  },
+  "rich-text#insta": {
+    "props": {
+      "text": "[![Instagram](https://analoren.vteximg.com.br/arquivos/ids/155403/instagram.png)](https://www.instagram.com/analoren?target=_blank)",
+      "blockClass": "socialheader"
+    }
+  },
+  "rich-text#pinterest": {
+    "props": {
+      "text": "[![Pinterest](https://analoren.vteximg.com.br/arquivos/ids/155404/pinterest.png)](https://br.pinterest.com/analorenoficial?target=_blank)",
+      "blockClass": "socialheader"
+    }
+  },
+  //MENU
+  "header-row#menu-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#prior"
+    ],
+    "props": {
+      "blockClass": "menu-link",
+      "inverted": "true"
+    }
+  },
+  "vtex.menu@2.x:menu#prior": {
+    "children": [
+      "menu-item#all",
+      "menu-item#spotlights",
+      "menu-item#clothes",
+      "menu-item#beach",
+      "menu-item#iesa"
+    ]
+  },
+  "menu-item#all": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#allsub"
+    ],
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "TODOS OS DEPARTAMENTOS",
+        "text": "TODOS OS DEPARTAMENTOS"
+      }
+    }
+  },
+  "menu-item#spotlights": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Novidades",
+        "text": "NOVIDADES"
+      },
+      "blockClass": "highligthstop"
+    }
+  },
+  // ----- ESCOLHAS DA IESA ------ //
+  "menu-item#iesa": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Iesa",
+        "text": "ESCOLHAS DA IESA"
+      }
+    }
+  },
+  // ----- ROUPAS ------- //
+  "menu-item#clothes": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#clothessub"
+    ],
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Roupas",
+        "text": "ROUPAS"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#clothessub": {
+    "children": [
+      "vtex.menu@2.x:menu#clothessubmenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#clothessubmenu": {
+    "children": [
+      "menu-item#blousesMain",
+      "menu-item#bodysMain",
+      "menu-item#pantsMain",
+      "menu-item#jacketsMain",
+      "menu-item#overallsMain",
+      "menu-item#skirtsMain",
+      "menu-item#shortssMain",
+      "menu-item#dressessMain"
+    ],
+    "props": {
+      "blockClass": "subdirection"
+    }
+  },
+  "menu-item#blousesMain": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Blusas",
+        "text": "Blusas"
+      }
+    }
+  },
+  "menu-item#bodysMain": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Bodys",
+        "text": "Bodys"
+      }
+    }
+  },
+  "menu-item#pantsMain": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Calcas",
+        "text": "Calças"
+      }
+    }
+  },
+  "menu-item#jacketsMain": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Casacos e Jaquetas",
+        "text": "Casacos e Jaquetas"
+      }
+    }
+  },
+  "menu-item#overallsMain": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Macacão",
+        "text": "Macacão"
+      }
+    }
+  },
+  "menu-item#skirtsMain": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/roupas/saias/d",
+        "noFollow": true,
+        "tagTitle": "Saias(Todos os departamentos)",
+        "text": "Saias"
+      }
+    }
+  },
+  "menu-item#shortssMain": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+  "menu-item#dressessMain": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Vestidos",
+        "text": "Vestidos"
+      }
+    }
+  },
+  // ------ MODA PRAIA ------ //
+  "menu-item#beach": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#beachsub"
+    ],
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Moda Praia",
+        "text": "MODA PRAIA"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#beachsub": {
+    "children": [
+      "vtex.menu@2.x:menu#beachsubmenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#beachsubmenu": {
+    "children": [
+      "menu-item#pareo",
+      "menu-item#exitdress",
+      "menu-item#body"
+    ],
+    "props": {
+      "blockClass": "subdirection"
+    }
+  },
+  "menu-item#pareo": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Pareo",
+        "text": "Parêos"
+      }
+    }
+  },
+  "menu-item#exitdress": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Saídas",
+        "text": "Saídas"
+      }
+    }
+  },
+  "menu-item#body": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "body",
+        "text": "Body"
+      }
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "width": "180"
+    }
+  },
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Ir para o Checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray",
+      "iconClasses": "MinicartIcon"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile",
+      "header-row#2-mobile"
+    ]
+  },
+  "header-row#2-mobile": {
+    "children": [
+      "search-bar#mobile"
+    ]
+  },
+  "search-bar#mobile": {
+    "props": {}
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#priormobile"
+    ]
+  },
+  // ------- MENU MOBILE ------- //
+  "vtex.menu@2.x:menu#priormobile": {
+    "children": [
+      //roupas
+      "menu-item#clothmobile",
+      "menu-item#blousemobile",
+      "menu-item#bodysmobile",
+      "menu-item#pantsmobile",
+      "menu-item#jacketmobile",
+      "menu-item#overallsmobile",
+      "menu-item#skirtmobile",
+      "menu-item#shortmobile",
+      "menu-item#dressmobile",
+      //modapraia
+      "menu-item#beachmobile",
+      "menu-item#pareomobile",
+      "menu-item#exitdressmobile",
+      "menu-item#bodymobile",
+      //Escolhas da Iesa
+      "menu-item#iesamobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // ---- ROUPAS MOBILE ----- //
+  "menu-item#clothmobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Roupas Mobile",
+        "text": "ROUPAS"
+      },
+      "blockClass": "clothmobile"
+    }
+  },
+  "menu-item#blousemobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Blusas Mobile",
+        "text": "Blusas"
+      }
+    }
+  },
+  "menu-item#bodysmobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Bodys Mobile",
+        "text": "Bodys"
+      }
+    }
+  },
+  "menu-item#pantsmobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Calças Mobile",
+        "text": "Calças"
+      }
+    }
+  },
+  "menu-item#jacketmobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Jaquetas Mobile",
+        "text": "Casacos e Jaquetas"
+      }
+    }
+  },
+  "menu-item#overallsmobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Macacão Mobile",
+        "text": "Macacão"
+      }
+    }
+  },
+  "menu-item#skirtmobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Saias Mobile",
+        "text": "Saias"
+      }
+    }
+  },
+  "menu-item#shortmobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Shorts Mobile",
+        "text": "Short"
+      }
+    }
+  },
+  "menu-item#dressmobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Vestidos Mobile",
+        "text": "Vestidos"
+      }
+    }
+  },
+  // ---- PRAIA MOBILE ----- //
+  "menu-item#beachmobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Moda Praia Mobile",
+        "text": "MODA PRAIA"
+      },
+      "blockClass": "beachmobile"
+    }
+  },
+  "menu-item#pareomobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Pareô",
+        "text": "Pareô"
+      }
+    }
+  },
+  "menu-item#exitdressmobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Saídas Mobile",
+        "text": "Saídas"
+      }
+    }
+  },
+  "menu-item#bodymobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Bodys Mobile",
+        "text": "Bodys"
+      }
+    }
+  },
+  "menu-item#iesamobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Escolhas da Iesa Mobile",
+        "text": "ESCOLHAS DA IESA"
+      },
+      "blockClass": "iesamobile"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://www.analoren.com.br/assets/templates/2/imagens/logo-2019.png",
+      "width": "70"
+    }
+  }
+}

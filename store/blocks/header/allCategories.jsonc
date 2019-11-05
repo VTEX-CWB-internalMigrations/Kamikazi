@@ -1,0 +1,237 @@
+{
+    "vtex.menu@2.x:submenu#allsub":{
+        "children":[
+          "flex-layout.row#alldepartmentbox"
+        ]
+      },
+      "flex-layout.row#alldepartmentbox":{
+        "children":[
+          "flex-layout.col#allcloth",
+          "flex-layout.col#allbeach",
+          "flex-layout.col#allIesa"
+        ]
+      },
+      "flex-layout.col#allcloth":{
+        "children":[
+          // "rich-text#allclothtitle"
+          "vtex.menu@2.x:menu#clothTop"
+        ]
+      },
+      "flex-layout.col#allbeach":{
+        "children":[
+          // "rich-text#allbeachtitle"
+          "vtex.menu@2.x:menu#beachTop"
+        ]
+      },
+      "flex-layout.col#allIesa":{
+        "children":[
+            "vtex.menu@2.x:menu#IesaTop"
+          ]
+      },
+
+
+
+      // --------- ROUPAS TODOS OS DEPARTAMENTOS --------- //
+      "vtex.menu@2.x:menu#clothTop":{
+        "children":[
+          "menu-item#ClothTitleTop",
+          "menu-item#blouseTop",
+          "menu-item#bodysTop",
+          "menu-item#pantsTop",
+          "menu-item#jacketTop",
+          "menu-item#overallsTop",
+          "menu-item#skirtTop",
+          "menu-item#shortTop",
+          "menu-item#dressTop"
+        ],
+        "props":{
+          "blockClass": "subdirection"
+        }
+      },
+
+      "menu-item#ClothTitleTop":{
+        "props": {
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "Roupas(Todos Departamentos)",
+                "text": "ROUPAS"
+            }
+        }
+      },
+      "menu-item#blouseTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Blusas(Todos Departamentos)",
+              "text": "Blusas"
+            }
+          }
+      },
+      "menu-item#bodysTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Bodys(Todos os departamentos)",
+              "text": "Bodys"
+            }
+          }
+      },
+      "menu-item#pantsTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Calças(Todos os departamentos)",
+              "text": "Calças"
+            }
+          }
+      },
+      "menu-item#jacketTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Jaquetas(Todos os departamentos)",
+              "text": "Casacos e Jaquetas"
+            }
+          }
+      },
+      "menu-item#overallsTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Macacão(Todos os departamentos)",
+              "text": "Macacão"
+            }
+          }
+      },
+      "menu-item#skirtTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Saias(Todos os departamentos)",
+              "text": "Saias"
+            }
+          }
+      },
+      "menu-item#shortTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Shorts(Todos os departamentos)",
+              "text": "Shorts"
+            }
+          }
+      },
+      "menu-item#dressTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Vestidos(Todos os departamentos)",
+              "text": "Vestidos"
+            }
+          }
+      },
+
+
+      
+      // -------- MODA PRAIA TODOS OS DEPARTAMENTOS -------- //
+      "vtex.menu@2.x:menu#beachTop":{
+        "children":[
+          "menu-item#beachTitleTop",
+          "menu-item#pareoTop",
+          "menu-item#exitdressTop",
+          "menu-item#bodyTop"
+        ],
+        "props":{
+            "blockClass": "subdirection"
+        }
+      },
+
+      "menu-item#beachTitleTop":{
+          "props":{
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "Moda Praia(Todos os departamentos)",
+                "text": "MODA PRAIA"
+              } 
+          }
+      },
+
+      "menu-item#pareoTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Parêo(Todos os departamentos)",
+              "text": "Pareô"
+            }
+          }
+      },
+      "menu-item#exitdressTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Saídas(Todos os departamentos)",
+              "text": "Saídas"
+            }
+          }
+      },
+      "menu-item#bodyTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Body(Todos os departamentos)",
+              "text": "Body"
+            }
+          }
+      },
+
+
+
+      // ------- ESCOLHAS DA IESA TODOS OS DEPARTAMENTOS -------- //
+      "vtex.menu@2.x:menu#IesaTop":{
+        "children":[
+            "menu-item#IesaTitleTop"
+        ],
+        "props":{
+            "blockClass": "subdirection"
+        }
+      },
+
+      "menu-item#IesaTitleTop":{
+        "props": {
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Iesa(Todos os departamentos)",
+              "text": "ESCOLHAS DA IESA"
+            }
+          }
+      }
+      
+}
