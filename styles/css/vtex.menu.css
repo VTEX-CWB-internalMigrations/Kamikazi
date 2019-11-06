@@ -78,11 +78,22 @@
 .menuContainer--menuMobile .styledLinkContainer , .menuContainer--submenuMaster .styledLinkContainer{
   padding: 10px 0px;
 }
-
-.menuItem:hover{
-  background: #f42712;
+.menuContainer--menuSuperior .menuItem .styledLink {
   color: #fff;
 }
-.menuItem:hover .styledLink{
+.menuContainer--menuSuperior .menuItem .submenu .menuContainer--subdirection .menuItem .styledLink{
+  color: #000;
+}
+.menuContainer--menuSuperior .menuItem .submenu .menuContainer--subdirection .menuItem:hover .styledLink{
+  color: #fff;
+}
+.menuContainer--menuSuperior .menuItem .submenu .menuContainer--submenuClass .menuItem .styledLink {
+  color: #000;
+}
+.menuContainer--menuSuperior .menuItem .submenu .menuContainer--submenuClass .menuItem:hover .styledLink {
+  color: #fff;
+}
+.menuItem:hover{
+  background: #f42712;
   color: #fff;
 }

@@ -164,7 +164,10 @@
       "menu-item#pipe",
       "menu-item#loader",
       "menu-item#belt"
-    ]
+    ],
+    "props": {
+      "blockClass": "menuSuperior"
+    }
   },
   "menu-item#all": {
     "blocks": [
