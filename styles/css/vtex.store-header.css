@@ -1,5 +1,11 @@
+.headerRow--menu-link :global(.vtex-menu-2-x-styledLink) {
+  font-size: 14px;
+}
 .headerRow--main-header .headerRowBackground {
   background-color: #fff;
+}
+.headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
+  font-size: 14px;
 }
 .headerRow--main-header-mobile .headerRowBackground {
   padding: 10px 0px;
