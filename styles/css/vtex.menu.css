@@ -1,10 +1,5 @@
 .menuItem--highligthstop{
     background: #f42712;
-  }
-.menuItem:hover{
-  background: #f42712;
-  color: #fff;
-
 }
 .menuContainer--subdirection{
   flex-direction: column
@@ -82,4 +77,12 @@
 
 .menuContainer--menuMobile .styledLinkContainer , .menuContainer--submenuMaster .styledLinkContainer{
   padding: 10px 0px;
+}
+
+.menuItem:hover{
+  background: #f42712;
+  color: #fff;
+}
+.menuItem:hover .styledLink{
+  color: #fff;
 }
