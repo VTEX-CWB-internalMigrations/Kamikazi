@@ -20,3 +20,7 @@
     border-top: 1px solid #000;
     margin: 20px auto;
 }
+.container--likebox .paragraph{
+    margin: 0px;
+    font-size: 0px;
+}
