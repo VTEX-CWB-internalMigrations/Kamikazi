@@ -1,8 +1,16 @@
 .footerLayout{
   margin-top: 20px;
-  border-top: 5px solid #000;
+  border-top: 5px solid #dcdcdc;
 }
 
 .row--payment-methods{
   margin: 10px 0px;
+}
+
+.row--higherRow{
+  padding: 10px 0px 30px;
+}
+
+.row--credits{
+  background: #dcdcdc;
 }

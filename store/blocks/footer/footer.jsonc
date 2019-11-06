@@ -15,7 +15,10 @@
   "footer-row#1-desktop": {
     "children": [
       "flex-layout.row#topfoot"
-    ]
+    ],
+    "props": {
+      "blockClass": "higherRow"
+    }
   },
   "flex-layout.row#topfoot": {
     "children": [
@@ -133,7 +136,10 @@
   "footer-row#2-desktop": {
     "children": [
       "flex-layout.row#middlefoot"
-    ]
+    ],
+    "props": {
+      "blockClass": "downRow"
+    }
   },
   "flex-layout.row#middlefoot": {
     "children": [
