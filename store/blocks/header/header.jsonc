@@ -181,9 +181,6 @@
     }
   },
   "menu-item#openField": {
-    "blocks": [
-      //"vtex.menu@2.x:submenu#openSub"
-    ],
     "props": {
       "itemProps": {
         "type": "internal",
@@ -289,7 +286,9 @@
   },
   "vtex.menu@2.x:menu#menuSub": {
     "children": [],
-    "props": {}
+    "props": {
+      "blockClass": "submenuClass"
+    }
   },
   "logo#desktop": {
     "props": {
