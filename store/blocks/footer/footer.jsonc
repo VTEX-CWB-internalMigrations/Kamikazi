@@ -19,22 +19,33 @@
   },
   "flex-layout.row#topfoot": {
     "children": [
+      "footer-spacer",
       "flex-layout.col#analoren",
-      "footer-spacer",
+      "footer-spacer#middle",
       "flex-layout.col#payment",
-      "footer-spacer",
-      "flex-layout.col#social"
+      "footer-spacer#middle",
+      "flex-layout.col#safety",
+      "footer-spacer#middle",
+      "flex-layout.col#social",
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "topfootrow"
+    }
+  },
+  "footer-spacer#middle": {
+    "props": {
+      "width": "3%"
     }
   },
   "flex-layout.col#analoren": {
     "children": [
       "rich-text#analorentitle",
       "rich-text#about",
-      "rich-text#privacy"
-      // "rich-text#talk"
+      "rich-text#privacy",
+      "rich-text#helppayment",
+      "rich-text#change",
+      "rich-text#shipping"
     ]
   },
   "rich-text#analorentitle": {
@@ -88,7 +99,7 @@
   "flex-layout.col#social": {
     "children": [
       "rich-text#socialtitle",
-      "social-networks"
+      "rich-text#likebox"
     ]
   },
   "rich-text#socialtitle": {
@@ -126,9 +137,6 @@
   },
   "flex-layout.row#middlefoot": {
     "children": [
-      "flex-layout.col#help",
-      "footer-spacer",
-      "flex-layout.col#safety",
       "footer-spacer",
       "flex-layout.col#facesand"
     ],
@@ -136,22 +144,13 @@
       "blockClass": "middlefootrow"
     }
   },
-  "flex-layout.col#help": {
-    "children": [
-      "rich-text#helptitle",
-      "rich-text#helppayment#",
-      "rich-text#change",
-      "rich-text#shipping"
-      // "rich-text#doubts"
-    ]
-  },
   "rich-text#helptitle": {
     "props": {
       "text": "AJUDA E SUPORTE",
       "blockClass": "footertitle"
     }
   },
-  "rich-text#helppayment#": {
+  "rich-text#helppayment": {
     "props": {
       "text": "[Pagamento](#)",
       "blockClass": "footlinkitem"
@@ -208,9 +207,7 @@
     }
   },
   "flex-layout.col#facesand": {
-    "children": [
-      "rich-text#likebox"
-    ]
+    "children": []
   },
   "rich-text#likebox": {
     "props": {
