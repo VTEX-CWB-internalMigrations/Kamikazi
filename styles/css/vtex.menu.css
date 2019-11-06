@@ -80,6 +80,6 @@
   font-weight: bold;
 }
 
-.menuContainer--menuMobile .styledLinkContainer{
+.menuContainer--menuMobile .styledLinkContainer , .menuContainer--submenuMaster .styledLinkContainer{
   padding: 10px 0px;
 }
