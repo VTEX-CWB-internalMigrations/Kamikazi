@@ -81,6 +81,9 @@
 .menuContainer--menuSuperior .menuItem .styledLink {
   color: #fff;
 }
+.submenu .menuContainer--subdirection .menuItem{
+  padding: 10px 0px;
+}
 .menuContainer--menuSuperior .menuItem .submenu .menuContainer--subdirection .menuItem .styledLink{
   color: #000;
 }
