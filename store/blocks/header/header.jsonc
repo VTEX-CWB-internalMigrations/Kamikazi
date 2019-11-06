@@ -193,12 +193,10 @@
         "text": "Abra seu Campo"
       },
       "blockClass": "highligthstop"
-    }
-  },
-  "rich-text#open": {
-    "props": {
-      "text": "Abra seu Campo"
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMaster"
+    ]
   },
   "menu-item#acessories": {
     "props": {
@@ -209,7 +207,10 @@
         "tagTitle": "Acessórios",
         "text": "Acessórios e Customização"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMaster"
+    ]
   },
   "menu-item#airsoft": {
     "props": {
@@ -220,7 +221,10 @@
         "tagTitle": "Airsoft",
         "text": "Airsoft"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMaster"
+    ]
   },
   "menu-item#balls": {
     "props": {
@@ -231,7 +235,10 @@
         "tagTitle": "Bolas p/ Paintball",
         "text": "Bolas p/ Paintball"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMaster"
+    ]
   },
   "menu-item#pipe": {
     "props": {
@@ -242,7 +249,10 @@
         "tagTitle": "Canos",
         "text": "Canos"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMaster"
+    ]
   },
   "menu-item#loader": {
     "props": {
@@ -253,7 +263,10 @@
         "tagTitle": "Carregadores",
         "text": "Carregadores"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMaster"
+    ]
   },
   "menu-item#belt": {
     "props": {
@@ -264,7 +277,19 @@
         "tagTitle": "Cintos",
         "text": "Cintos"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuMaster"
+    ]
+  },
+  "vtex.menu@2.x:submenu#submenuMaster": {
+    "children": [
+      "vtex.menu@2.x:menu#menuSub"
+    ]
+  },
+  "vtex.menu@2.x:menu#menuSub": {
+    "children": [],
+    "props": {}
   },
   "logo#desktop": {
     "props": {
