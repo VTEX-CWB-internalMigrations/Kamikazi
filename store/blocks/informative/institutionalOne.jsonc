@@ -1,0 +1,30 @@
+{
+    "store.custom#institutionalOne": {
+        "blocks": [
+            "flex-layout.row#institutional"
+        ]
+    },
+    "flex-layout.row#institutional": {
+        "children": [
+            "flex-layout.col#institutionalcolumn"
+        ]
+    },
+    "flex-layout.col#institutionalcolumn": {
+        "children": [
+            "rich-text#institutionaltitle",
+            "rich-text#institutionaltext"
+        ]
+    },
+    "rich-text#institutionaltitle": {
+        "props": {
+            "text": "SEU TÍTULO AQUI",
+            "blockClass": "institutionalTitle"
+        }
+    },
+    "rich-text#institutionaltext": {
+        "props": {
+            "text": "SEU TEXTO AQUI",
+            "blockClass": "institutionalText"
+        }
+    }
+}
