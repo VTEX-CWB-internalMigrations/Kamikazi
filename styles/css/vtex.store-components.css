@@ -214,6 +214,20 @@ h1.productNameContainer .productBrand{
   width: 95px;
 }
 
+.specificationsTitle{
+  display: none;
+}
+
+.productDescriptionTitle{
+  padding: 10px;
+  background: #e0e0e0;
+  font-size: 14px;
+}
+
+.productDescriptionText{
+  padding: 0px 10px;
+}
+
 
 @media only screen and (min-width: 640px) {
   .newsletter .container {

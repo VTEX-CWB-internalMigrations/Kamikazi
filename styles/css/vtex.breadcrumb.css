@@ -2,4 +2,4 @@
 .container .link:first-child svg{display:none;}
 .container .link:first-child:before{content:"Você está em";}
 .container .link{font-size:12px;}
-.container .term:last-child{color:#00607f;font-size:12px;font-weight: bold;}
+.container .term:last-child{color:#000;font-size:12px;font-weight: bold;}

@@ -8,7 +8,6 @@
       "product-questions-and-answers"
     ]
   },
-
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4
@@ -28,12 +27,18 @@
     },
     "children": [
       "flex-layout.col#product-image",
+      "flex-layout.col#spacer",
       "flex-layout.col#product-price"
     ]
   },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "10%"
+    }
+  },
   "flex-layout.col#product-image": {
     "props": {
-      "width": "60%",
+      "width": "40%",
       "rowGap": 0
     },
     "children": [
@@ -56,49 +61,43 @@
       "product-separator",
       "flex-layout.row#middleproduct",
       "sku-selector",
-      "product-separator",
-      "shipping-simulator",
-      "product-separator",
       "product-description",
       "product-specifications",
+      "shipping-simulator",
       "product-separator",
       "share#default"
     ]
   },
-  "product-specifications":{
-    "props":{
+  "product-specifications": {
+    "props": {
       "tabsMode": true
     }
   },
-  "product-identifier.product":{
-    "props":{
-    }
+  "product-identifier.product": {
+    "props": {}
   },
-  "flex-layout.row#middleproduct":{
-    "children":[
+  "flex-layout.row#middleproduct": {
+    "children": [
       "flex-layout.col#leftproduct",
       "flex-layout.col#rightproduct"
     ],
-    "props":{
+    "props": {
       "blockClass": "pricebuybox"
     }
   },
   "flex-layout.col#leftproduct": {
-    "children":[
+    "children": [
       "product-price#product-details"
     ]
   },
-  "flex-layout.col#rightproduct":{
-    "children":[
+  "flex-layout.col#rightproduct": {
+    "children": [
       "buy-button"
     ]
   },
-  "buy-button":{
-    "props":{
-
-    }
+  "buy-button": {
+    "props": {}
   },
-
   "product-price#product-details": {
     "props": {
       "showListPrice": true,
@@ -107,9 +106,8 @@
       "showSavings": true
     }
   },
-
   "share#default": {
-    "props":{
+    "props": {
       "social": {
         "Facebook": true,
         "WhatsApp": true,
@@ -118,5 +116,4 @@
       }
     }
   }
-
 }
