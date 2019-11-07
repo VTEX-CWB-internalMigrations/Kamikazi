@@ -47,12 +47,12 @@
   content: "";
   background: url(https://www.analoren.vteximg.com.br/arquivos/ids/155399/talk.png); 
   background-repeat: no-repeat;
-}
+}*/
 
 .menuContainer--menu-contact .menuItem:nth-child(3) .styledLink::before{
-  content: "";
+  content: ".";
   background: none; 
-} */
+} 
 
 .menuContainer--menu-contact .menuItem:hover .styledLink{
   color: rgb(211, 211, 211);
