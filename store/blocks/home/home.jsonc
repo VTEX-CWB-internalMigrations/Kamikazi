@@ -3,9 +3,9 @@
     "blocks": [
       "carousel#home",
       "flex-layout.row#forms",
-      "shelf#home1",
+      "shelf#homeFirst",
       "shelf#homeSecond",
-      "shelf#home3",
+      "shelf#homeThird",
       "flex-layout.row#imagesfoot"
     ]
   },
