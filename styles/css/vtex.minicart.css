@@ -6,7 +6,7 @@
     left: 30px;
     top: 2px;
 }
-.container button{
+/* .container button{
     width: 100px;
     background: transparent !important;
 }
@@ -14,13 +14,13 @@
     font-size: 0;
     width: 100px;
     background: transparent;
-}
-.container :global(.MinicartIcon){
+} */
+/* .container :global(.MinicartIcon){
     color: #ffffff;
     padding: 10px;
     background: #f42712;
     border-radius: 5px;
-}
+} */
 
 @media only screen and (max-width: 640px) {
     .badge{

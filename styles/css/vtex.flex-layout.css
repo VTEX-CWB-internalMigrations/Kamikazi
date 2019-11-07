@@ -29,7 +29,7 @@
 .flexRow--pricebuybox{
   margin: 20px 0px;
 }
-.flexRow--pricebuybox button{
+/* .flexRow--pricebuybox :global(.vtex-button){
   padding: 15px 0px;
   border-radius: 0px;
-}
+} */
