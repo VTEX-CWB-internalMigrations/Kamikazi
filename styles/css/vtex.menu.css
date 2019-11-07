@@ -49,10 +49,10 @@
   background-repeat: no-repeat;
 }*/
 
-.menuContainer--menu-contact .menuItem:nth-child(3) .styledLink::before{
+/* .menuContainer--menu-contact .menuItem:nth-child(3) .styledLink::before{
   content: ".";
   background: none; 
-} 
+}  */
 
 .menuContainer--menu-contact .menuItem:hover .styledLink{
   color: rgb(211, 211, 211);
