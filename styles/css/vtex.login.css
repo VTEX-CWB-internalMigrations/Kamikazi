@@ -1,0 +1,12 @@
+.label{
+    color: #fff;
+}
+
+.container :global(.vtex-button){
+    margin: 15px 30px;
+    background: #f42812;
+}
+
+.container:hover :global(.vtex-button){
+    background: #c11d0c;
+}
