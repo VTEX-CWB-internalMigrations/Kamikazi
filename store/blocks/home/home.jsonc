@@ -44,7 +44,7 @@
       "placeholder": "Insira seu e-mail"
     }
   },
-  "shelf#home1": {
+  "shelf#homeFirst": {
     "blocks": [
       "product-summary.shelf"
     ],
@@ -76,7 +76,7 @@
       }
     }
   },
-  "shelf#home3": {
+  "shelf#homeThird": {
     "blocks": [
       "product-summary.shelf"
     ],
