@@ -4,7 +4,7 @@
       "carousel#home",
       "flex-layout.row#forms",
       "shelf#home1",
-      "shelf#home2",
+      "shelf#homeSecond",
       "shelf#home3",
       "flex-layout.row#imagesfoot"
     ]
@@ -60,7 +60,7 @@
       }
     }
   },
-  "shelf#home2": {
+  "shelf#homeSecond": {
     "blocks": [
       "product-summary.shelf"
     ],
