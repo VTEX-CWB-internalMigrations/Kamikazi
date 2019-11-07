@@ -52,10 +52,10 @@
       "orderBy": "OrderByTopSaleDESC",
       "productList": {
         "maxItems": 50,
-        "itemsPerPage": 4,
+        "itemsPerPage": 5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "showTitle": false,
+        "showTitle": true,
         "paginationDotsVisibility": "hidden"
       }
     }
@@ -68,10 +68,10 @@
       "orderBy": "OrderByTopSaleDESC",
       "productList": {
         "maxItems": 50,
-        "itemsPerPage": 4,
+        "itemsPerPage": 5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "showTitle": false,
+        "showTitle": true,
         "paginationDotsVisibility": "hidden"
       }
     }
@@ -84,10 +84,10 @@
       "orderBy": "OrderByTopSaleDESC",
       "productList": {
         "maxItems": 50,
-        "itemsPerPage": 4,
+        "itemsPerPage": 5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "showTitle": false,
+        "showTitle": true,
         "paginationDotsVisibility": "hidden"
       }
     }
