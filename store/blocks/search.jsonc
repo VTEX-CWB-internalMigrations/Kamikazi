@@ -109,7 +109,7 @@
       "product-summary.shelf"
     ],
     "props": {
-      "maxItemsPerRow": 3
+      "maxItemsPerRow": 4
     }
   }
 }

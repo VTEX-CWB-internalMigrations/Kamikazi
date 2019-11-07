@@ -5,6 +5,7 @@
       "flex-layout.row#forms",
       "shelf#home1",
       "shelf#home2",
+      "shelf#home3",
       "flex-layout.row#imagesfoot"
     ]
   },
@@ -51,7 +52,7 @@
       "orderBy": "OrderByTopSaleDESC",
       "productList": {
         "maxItems": 50,
-        "itemsPerPage": 3,
+        "itemsPerPage": 4,
         "scroll": "BY_PAGE",
         "arrows": true,
         "showTitle": false,
@@ -67,7 +68,23 @@
       "orderBy": "OrderByTopSaleDESC",
       "productList": {
         "maxItems": 50,
-        "itemsPerPage": 3,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "showTitle": false,
+        "paginationDotsVisibility": "hidden"
+      }
+    }
+  },
+  "shelf#home3": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 50,
+        "itemsPerPage": 4,
         "scroll": "BY_PAGE",
         "arrows": true,
         "showTitle": false,
