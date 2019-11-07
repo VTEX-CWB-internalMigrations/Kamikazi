@@ -25,10 +25,7 @@
 @media only screen and (max-width: 640px) {
     .badge{
         font-size: 14px;
-        background-color: #000;
-        color: #fff;
-        left: 16px;
-        top: -10px;
+        left: 17px;
     }
     .container{
         background-image: none;
